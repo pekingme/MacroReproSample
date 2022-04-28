@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ButtonAppearance.MacroReproSample.Main" parent="">
+    <item name="buttonColor">?attr/buttonColorInTheme</item>
+    <item name="buttonLabel">@macro/button_label_macro</item>
+  </style>
+
+  <style name="ButtonAppearanceOverlay.MacroReproSample.Main" parent="">
+    <item name="buttonLabel">Button Overlay</item>
+  </style>
+</resources>

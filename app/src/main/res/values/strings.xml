@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">MacroReproSample</string>
+
+  <macro name="button_label_macro">Button</macro>
+</resources>
