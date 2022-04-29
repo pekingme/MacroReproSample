@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <declare-styleable name="ButtonAppearance">
-    <attr name="buttonColor" format="color"/>
+    <attr name="buttonColor" format="enum">
+      <enum name="green" value="0"/>
+      <enum name="red" value="1"/>
+    </attr>
     <attr name="buttonLabel" format="string"/>
   </declare-styleable>
+
   <attr name="buttonAppearance" format="reference"/>
+
   <attr name="buttonColorInTheme" format="enum">
     <enum name="green" value="0"/>
     <enum name="red" value="1"/>
